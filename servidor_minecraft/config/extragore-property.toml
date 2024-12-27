@@ -1,0 +1,264 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "alexsmobs:snow_leopard",
+    "alexsmobs:seal",
+    "alexsmobs:roadrunner",
+    "alexsmobs:laviathan",
+    "minecraft:trader_llama",
+    "alexsmobs:endergrade",
+    "goblintraders:goblin_trader",
+    "minecraft:horse",
+    "minecraft:llama",
+    "alexsmobs:maned_wolf",
+    "zombie_extreme:goon",
+    "alexsmobs:skreecher",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "zombie_extreme:devestated",
+    "alexsmobs:gelada_monkey",
+    "zombie_extreme:infected_military",
+    "alexsmobs:hammerhead_shark",
+    "alexsmobs:dropbear",
+    "alexsmobs:tiger",
+    "alexsmobs:grizzly_bear",
+    "alexsmobs:murmur_head",
+    "zombie_extreme:divided",
+    "minecraft:bee",
+    "alexsmobs:devils_hole_pupfish",
+    "minecraft:illusioner",
+    "goblintraders:vein_goblin_trader",
+    "minecraft:mooshroom",
+    "alexsmobs:bison",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "zombie_extreme:faceless",
+    "zombie_extreme:revived",
+    "alexsmobs:gorilla",
+    "alexsmobs:tusklin",
+    "alexsmobs:cosmic_cod",
+    "zombie_extreme:boomer",
+    "alexsmobs:underminer",
+    "minecraft:wandering_trader",
+    "alexsmobs:kangaroo",
+    "ecologics:coconut_crab",
+    "alexsmobs:hummingbird",
+    "mutantmonsters:mutant_zombie",
+    "hordes:drowned_player",
+    "alexsmobs:crow",
+    "alexsmobs:guster",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "alexsmobs:warped_toad",
+    "minecraft:chicken",
+    "alexsmobs:giant_squid",
+    "minecraft:zombie",
+    "alexsmobs:emu",
+    "alexsmobs:cockroach",
+    "alexsmobs:flutter",
+    "minecraft:hoglin",
+    "alexsmobs:capuchin_monkey",
+    "hordes:husk_player",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "minecraft:turtle",
+    "minecraft:sheep",
+    "alexsmobs:rattlesnake",
+    "zombie_extreme:assasin_black_ops",
+    "alexsmobs:bone_serpent_part",
+    "alexsmobs:raccoon",
+    "minecraft:ravager",
+    "alexsmobs:bone_serpent",
+    "zombie_extreme:runner",
+    "alexsmobs:potoo",
+    "alexsmobs:fly",
+    "alexsmobs:straddler",
+    "alexsmobs:sea_bear",
+    "alexsmobs:mudskipper",
+    "alexsmobs:sugar_glider",
+    "alexsmobs:crimson_mosquito",
+    "alexsmobs:orca",
+    "alexsmobs:jerboa",
+    "minecraft:bat",
+    "alexsmobs:cosmaw",
+    "alexsmobs:comb_jelly",
+    "railways:conductor",
+    "alexsmobs:skunk",
+    "alexsmobs:enderiophage",
+    "zombie_extreme:fetus",
+    "alexsmobs:sunbird",
+    "alexsmobs:tasmanian_devil",
+    "zombie_extreme:zero_patient",
+    "minecraft:cat",
+    "alexsmobs:stradpole",
+    "ecologics:penguin",
+    "minecraft:tropical_fish",
+    "zombie_extreme:chainsaw",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "zombie_extreme:crawler",
+    "alexsmobs:froststalker",
+    "zombie_extreme:demolisher",
+    "minecraft:giant",
+    "alexsmobs:lobster",
+    "alexsmobs:seagull",
+    "zombie_extreme:infected",
+    "alexsmobs:moose",
+    "alexsmobs:shoebill",
+    "alexsmobs:farseer",
+    "alexsmobs:warped_mosco",
+    "zombie_extreme:parasite",
+    "hordes:zombie_player",
+    "zombie_extreme:infected_juggernaut",
+    "minecraft:husk",
+    "jeffsgibbing:flesh_2",
+    "alexsmobs:komodo_dragon",
+    "minecraft:donkey",
+    "mutantmonsters:mutant_skeleton",
+    "minecraft:piglin_brute",
+    "alexsmobs:crocodile",
+    "alexsmobs:triops",
+    "alexsmobs:rhinoceros",
+    "alexsmobs:frilled_shark",
+    "alexsmobs:bald_eagle",
+    "alexsmobs:blobfish",
+    "ecologics:squirrel",
+    "alexsmobs:mimicube",
+    "zombie_extreme:infected_police",
+    "alexsmobs:void_worm",
+    "minecraft:parrot",
+    "zombie_extreme:inflated",
+    "alexsmobs:centipede_head",
+    "jeffsgibbing:flesh_entity",
+    "minecraft:frog",
+    "warrior:warrior",
+    "zombie_extreme:clicker",
+    "alexsmobs:banana_slug",
+    "mutantmonsters:mutant_creeper",
+    "alexsmobs:mimic_octopus",
+    "alexsmobs:bunfungus",
+    "alexsmobs:void_worm_part",
+    "zombie_extreme:explosive_infected",
+    "minecraft:mule",
+    "minecraft:vindicator",
+    "alexsmobs:flying_fish",
+    "minecraft:evoker",
+    "zombie_extreme:infected_hazmat",
+    "alexsmobs:tarantula_hawk",
+    "alexsmobs:cachalot_whale",
+    "zombie_extreme:ram",
+    "jeffsgibbing:ribs",
+    "alexsmobs:terrapin",
+    "alexsmobs:anaconda",
+    "minecraft:pig",
+    "alexsmobs:alligator_snapping_turtle",
+    "minecraft:goat",
+    "mutantmonsters:mutant_enderman",
+    "minecraft:cod",
+    "alexsmobs:mantis_shrimp",
+    "zombie_extreme:rat_king",
+    "alexsmobs:platypus",
+    "mutantmonsters:spider_pig",
+    "minecraft:cow",
+    "alexsmobs:rocky_roller",
+    "alexsmobs:soul_vulture",
+    "alexsmobs:blue_jay",
+    "alexsmobs:toucan",
+    "minecraft:salmon",
+    "alexsmobs:anteater",
+    "alexsmobs:rain_frog",
+    "minecraft:rabbit",
+    "minecraft:pillager",
+    "alexsmobs:murmur",
+    "minecraft:zoglin",
+    "alexsmobs:leafcutter_ant",
+    "zombie_extreme:night_hunter",
+    "alexsmobs:mungus",
+    "alexsmobs:caiman",
+    "alexsmobs:spectre",
+    "alexsmobs:catfish",
+    "mutantmonsters:endersoul_clone",
+    "minecraft:piglin",
+    "alexsmobs:skelewag",
+    "alexsmobs:elephant",
+    "alexsmobs:gazelle",
+    "minecraft:sniffer",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "zombie_extreme:military",
+    "minecraft:ocelot",
+    "jeffsgibbing:bone_entity",
+    "minecraft:wolf"
+]

@@ -1,0 +1,17 @@
+{
+	id: "de4f5a60-2cd2-3b6a-9cb1-2f0f5e6a187e"
+	type: "player"
+	player_name: "heladeracraft"
+	ranks: {
+		de4f5a60-2cd2-3b6a-9cb1-2f0f5e6a187e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "heladeracraft"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59C2"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

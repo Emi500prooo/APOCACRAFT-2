@@ -16,7 +16,7 @@
 
 	["Turret stats"."Storage drone"]
 		#Range: 10.0 ~ 1.7976931348623157E308
-		Health = 50.0
+		Health = 60.0
 		#Range: 0.0 ~ 100.0
 		Armor = 0.0
 

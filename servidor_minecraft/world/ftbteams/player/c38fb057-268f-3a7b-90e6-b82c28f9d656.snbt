@@ -1,0 +1,17 @@
+{
+	id: "c38fb057-268f-3a7b-90e6-b82c28f9d656"
+	type: "player"
+	player_name: "Emi500proo"
+	ranks: {
+		c38fb057-268f-3a7b-90e6-b82c28f9d656: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Emi500proo"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59CB"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
