@@ -17201,3 +17201,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'create_netherless:incomplete_
 [30Dec2024 03:15:40.431] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete apocacraft2 new
 [30Dec2024 03:20:40.409] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save apocacraft2 new
 [30Dec2024 03:20:40.422] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete apocacraft2 new
+[30Dec2024 03:25:40.415] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save apocacraft2 new
+[30Dec2024 03:25:40.430] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete apocacraft2 new
+[30Dec2024 03:30:40.427] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save apocacraft2 new
+[30Dec2024 03:30:40.456] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete apocacraft2 new
